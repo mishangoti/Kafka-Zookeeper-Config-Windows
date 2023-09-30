@@ -5,13 +5,22 @@
 ![This is an alt text.](/images/pic_1.PNG "This is a sample image.")
 
 ## Step 2 : Change the fonfiguration in Zookeeper and Server property file.
-
+Open file 1 : C:\kafka\config\server.properties
+            : edit line number 63 -> add custom path to save logs
+            : D:/kafka/tmp/kafka-logs
+Open file 2 : c:\kafka\config\zookeerer.properties
+            : edit line number 16 -> add custom path to save logs
+            : D:/kafka/tmp/kafka-logs
 
 ## Step 3 : Start the Zookeeper
-
+Open new teminal  : C:\kafka on CMD/teminal
+                  : run command
+                  : .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
 ## Step 4 : Start the kafka server.
-
+Open new teminal  : C:\kafka on CMD/teminal
+                  : run command
+                  : .\bin\windows\kafka-server-start.bat .\config\server.properties
 
 ## Step 5 : Create a topic.
 
