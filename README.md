@@ -2,24 +2,24 @@
 
 ## Steps 1 : Download Kafka from official website an Unzip it.
 [Kafka Download Link](https://kafka.apache.org/downloads).
-![This is an alt text.](/image/sample.png "This is a sample image.")
+![This is an alt text.](/images/pic_1.PNG "This is a sample image.")
 
 ## Step 2 : Change the fonfiguration in Zookeeper and Server property file.
 
 
-## Start the Zookeeper
+## Step 3 : Start the Zookeeper
 
 
-## Start the kafka server.
+## Step 4 : Start the kafka server.
 
 
-## Create a topic.
+## Step 5 : Create a topic.
 
 
-## Start Kafka Producer.
+## Step 6 : Start Kafka Producer.
 
 
-## Start Kafka Consumer.
+## Step 7 : Start Kafka Consumer.
 
 *This text will be italic*  
 _This will also be italic_
